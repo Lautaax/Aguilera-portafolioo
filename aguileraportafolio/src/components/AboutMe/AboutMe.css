@@ -1,0 +1,13 @@
+.fondoabout{
+    height: 65.7vh;
+}
+
+@media only screen and (max-width: 800px) {
+    .fondoabout {
+        height: 60vh;    
+    }
+    .qr{
+        width: 100%;
+        }
+
+}

@@ -1,0 +1,21 @@
+.fotofondo {height: 65.7vh;}
+
+
+.image {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr{
+width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .fotofondo {
+        height: 60vh;    
+    }
+    .qr{
+        width: 100%;
+        }
+
+}
