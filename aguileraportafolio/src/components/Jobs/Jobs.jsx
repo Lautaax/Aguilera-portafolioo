@@ -1,15 +1,20 @@
 import React from 'react';
-//import Peluqueria from '../Images/peluyago.png';
-//import ExPorta from '../Images/portafolio.png'
-//import Proximamente from '../Images/proximamente.png'
-//import Proyecjs from '../Images/proyecjs.jpeg'
-//import proyecReac from '../Images/react.jpeg'
-import "./Jobs.css"
+import Card from './Card';
+import cardData from '../../files/jobs.json';
 
-export const Jobs = () => {
-    return (
-        <div className='jobsfondoo' >
-        </div>
-    );
-
-}
+<div className="App">
+<Route exact path="/" render={() => (
+  <div>
+    {cardData.map((card, index) => (
+      <Card
+        key={index}
+        title={card.title}
+        description={card.description}
+        image={card.image}
+      />
+    ))}
+  </div>
+)} />
+<Route path="/detalle/:id" component={CardDetail} />
+</div>
+export default App;

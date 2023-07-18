@@ -1,0 +1,13 @@
+[
+    {
+      "title": "Tarjeta 1",
+      "description": "Descripción de la tarjeta 1",
+      "image": "../components/Images/peluyago.png"
+    },
+    {
+      "title": "Tarjeta 2",
+      "description": "Descripción de la tarjeta 2",
+      "image": "../components/Images/peluyago.png"
+    },
+  ]
+  
